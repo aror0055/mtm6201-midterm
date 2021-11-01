@@ -6,8 +6,13 @@ CSS STYLES RESET: The following block of code is being used to remove all styles
    v2.0 | 20110126
    License: none (public domain)
 */
+<<<<<<< HEAD
 
 /* html, body, div, span, applet, object, iframe,
+=======
+/* 
+html, body, div, span, applet, object, iframe,
+>>>>>>> 5f5411b178d061bb5400cd0e386c6a5491c9158d
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -50,12 +55,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+<<<<<<< HEAD
  */
+=======
+  */
+>>>>>>> 5f5411b178d061bb5400cd0e386c6a5491c9158d
 
 
 /* 
-GLOBAL STYLES
+GLOBAL STYLES: This block of css code contains the styles for all the html files i.e. global styles, these styles will be applied to every web page that contain the corresponding html tags.
 */
+ul li{
+	list-style-type: none;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+body{
+	background-image: url("/images/pink-background.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
 
 
 html{
@@ -66,16 +86,16 @@ html{
     
 }
 /* 
-HOME PAGE STYLES
+HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
 */
 
 
 /* 
-MENU PAGE STYLES
+MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
 */
 
 
 
 /* 
-ABOUT PAGE STYLES
+EVENTS PAGE STYLES: This block of css code contains the styles exclusively to the events.html webpage.
 */
