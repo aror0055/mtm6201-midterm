@@ -56,6 +56,11 @@ table {
 /* 
 GLOBAL STYLES
 */
+nav ul{
+	background-color: blue;
+	display: inline-block;
+	list-style-type: none;
+}
 
 
 
