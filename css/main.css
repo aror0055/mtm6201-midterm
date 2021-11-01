@@ -56,10 +56,10 @@ table {
 /* 
 GLOBAL STYLES
 */
-nav ul{
-	background-color: blue;
-	display: inline-block;
+ul li{
 	list-style-type: none;
+	display: inline;
+	flex-wrap: wrap;
 }
 
 
