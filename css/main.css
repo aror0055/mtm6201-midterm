@@ -6,7 +6,7 @@ CSS STYLES RESET: The following block of code is being used to remove all styles
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,9 +26,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,11 +50,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+  */
 
 
 /* 
-GLOBAL STYLES
+GLOBAL STYLES: This block of css code contains the styles for all the html files i.e. global styles, these styles will be applied to every web page that contain the corresponding html tags.
 */
 ul li{
 	list-style-type: none;
@@ -68,18 +68,20 @@ body{
 	background-size: auto;
 }
 
+
+
 /* 
-HOME PAGE STYLES
+HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
 */
 
 
 
 /* 
-MENU PAGE STYLES
+MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
 */
 
 
 
 /* 
-ABOUT PAGE STYLES
+EVENTS PAGE STYLES: This block of css code contains the styles exclusively to the events.html webpage.
 */
