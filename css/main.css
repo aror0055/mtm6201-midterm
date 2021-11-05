@@ -56,30 +56,95 @@ table {
 /* 
 GLOBAL STYLES: This block of css code contains the styles for all the html files i.e. global styles, these styles will be applied to every web page that contain the corresponding html tags.
 */
-ul li{
+
+html {
+	font-family: 'Bree Serif', serif;
+}
+
+
+.logo-background{
+	background-image: url(/mtm6201-midterm/images/two-tone-background.jpg);
+	background-size: inherit;
+	background-size: 100%;
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.navbar {
+	display: inline-block;
+	text-align: center;
+	background-color: lavenderblush;
+	width: 100%;
+}
+
+ul li {
 	list-style-type: none;
 	display: inline;
 	flex-wrap: wrap;
 }
 
-body{
-	background-image: url("/images/pink-background.jpg");
+.navbar ul li {
+	padding: 0% 3%;
+	color: #bc6e79;
+}
+
+.navbar ul li a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #bc6e79;
+}
+
+.navbar ul li a:link,
+.navbar ul li a:visited{
+	color: #bc6e79;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active{
+	color: #fd2f7e;
+	transition-property: ease-in;
+	transition-duration: 2s;
+}
+
+body {
+	background-image: url("/mtm6201-midterm/images/brick-background.jpg");
 	background-repeat: no-repeat;
-	background-size: auto;
 }
 
 
-html{
-    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-}
-
-.main-heading{
-    
-}
 /* 
 HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
 */
 
+.banner{
+	background-color: #bc6e79;
+	padding: 0%;
+	text-align: center;
+	color: lavenderblush;
+}
+
+.banner h2{
+	font-size: 3.5em;
+}
+
+div.flav-of-the-day{
+background-color: #F9BACF;
+}
+
+
+div .flav-of-the-day-banner{
+	width: 40%;
+}
+
+div.flav-of-the-day-text h3{
+font-size: 2em;
+color: #bc6e79;
+flex-wrap: wrap;
+}
 
 /* 
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
