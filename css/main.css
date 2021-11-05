@@ -131,19 +131,13 @@ HOMEPAGE STYLES: This block of css code contains the styles exclusively to the h
 	font-size: 3.5em;
 }
 
-div.flav-of-the-day{
-background-color: #F9BACF;
-}
-
-
 div .flav-of-the-day-banner{
-	width: 40%;
+	width: 100%;
 }
 
 div.flav-of-the-day-text h3{
 font-size: 2em;
 color: #bc6e79;
-flex-wrap: wrap;
 }
 
 /* 
