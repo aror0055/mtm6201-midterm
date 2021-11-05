@@ -7,50 +7,136 @@ CSS STYLES RESET: The following block of code is being used to remove all styles
    License: none (public domain)
 */
 
-/* html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+}
+
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-  */
 
 
 /* 
@@ -62,16 +148,17 @@ html {
 }
 
 
-.logo-background{
-	background-image: url(/mtm6201-midterm/images/two-tone-background.jpg);
+.logo-background {
+	background-image: url("/images/two-tone-background.jpg");
 	background-size: inherit;
 	background-size: 100%;
 }
+
 .logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 20%;
+	width: 20vw;
 }
 
 .navbar {
@@ -79,6 +166,8 @@ html {
 	text-align: center;
 	background-color: lavenderblush;
 	width: 100%;
+	margin: 2vw 0rem;
+	padding: 1vw;
 }
 
 ul li {
@@ -93,26 +182,27 @@ ul li {
 }
 
 .navbar ul li a {
-	font-size: 1.5rem;
+	font-size: 2vw;
 	text-decoration: none;
 	color: #bc6e79;
 }
 
 .navbar ul li a:link,
-.navbar ul li a:visited{
+.navbar ul li a:visited {
 	color: #bc6e79;
 }
 
 .navbar ul li a:hover,
-.navbar ul li a:active{
+.navbar ul li a:active {
 	color: #fd2f7e;
 	transition-property: ease-in;
 	transition-duration: 2s;
 }
 
 body {
-	background-image: url("/mtm6201-midterm/images/brick-background.jpg");
+	background-image: url("/images/brick-background.jpg");
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 
@@ -120,26 +210,140 @@ body {
 HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
 */
 
-.banner{
+.banner {
 	background-color: #bc6e79;
 	padding: 0%;
 	text-align: center;
 	color: lavenderblush;
+	padding: 1rem;
+	margin: 0rem 0rem 2vw 0rem;
 }
 
-.banner h2{
-	font-size: 3.5em;
+.banner h2 {
+	font-size: 5vw;
+	font-weight: bold;
 }
 
-div .flav-of-the-day-banner{
+.banner h3 {
+	font-size: 2vw;
+}
+
+.banner p{
+	font-size: .5vw;
+}
+
+
+
+div.flavour-of-the-day {
 	width: 100%;
+	background-color: #FBBAD1;
+	padding: 0%;
+	color: lavenderblush;
 }
 
-div.flav-of-the-day-text h3{
-font-size: 2em;
-color: #bc6e79;
+.flav-of-the-day-banner-image {
+	width: 32vw;
+	float: left;
+	padding-left: 7vw;
 }
 
+div.flav-of-the-day-text h3 {
+	font-size: 3.75vw;
+	font-weight: lighter;
+	color: #8E555F;
+}
+
+div.flav-of-the-day-text p {
+	font-size: 1.75vw;
+	padding: 2vw 0;
+	color: #8E555F;
+}
+
+.flav-of-the-day-button-div {
+	text-align: right;
+	padding: 5vh;
+}
+
+
+.flav-of-the-day-button-div{
+	margin: -2vw;
+}
+.flav-of-the-day-button {
+	font-family: 'Bree Serif', serif;
+	padding: 2vw;
+	font-size: 3.75vw;
+	text-align: right;
+	color: #8E555F;
+	border-radius: 5%;
+	border: none;
+	text-align: center;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 1vw;
+	margin-right: 10vw;
+}
+
+.flav-of-the-day-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.flav-of-the-day-button span:after {
+	content: '\003E';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -1.1vw;
+	transition: 0.5s;
+}
+
+.flav-of-the-day-button:hover span {
+	padding-right: 3vw;
+}
+
+.flav-of-the-day-button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 5vw;
+}
+
+.grid-container .item-1{
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+}
+
+.grid-container .item-1 img{
+
+	margin: 5vw 0vw 0vw 1vw;
+	width: 47vw;
+}
+.grid-container .item-2{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+.grid-container .item-2 img{
+
+	margin: 5vw 0vw 0vw -1vw;
+	width: 47vw;
+}
+.grid-container .item-3{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+.grid-container .item-3 img{
+	margin: 2.2vw 0vw 0vw -1vw;
+	width: 47vw;
+}
 /* 
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
 */
