@@ -283,11 +283,9 @@ div.flav-of-the-day-text p {
 .flav-of-the-day-button-div {
 	text-align: right;
 	padding: 5vh;
-}
-
-.flav-of-the-day-button-div{
 	margin: -2vw;
 }
+
 .flav-of-the-day-button {
 	font-family: 'Bree Serif', serif;
 	padding: 2vw;
@@ -367,12 +365,12 @@ div.flav-of-the-day-text p {
 }
 
 
-/*-------------------------------------------About Us Styles----------------------------------------*/
+/*------------------------------------------About Us Styles----------------------------------------*/
 
 .about-us{
 	background-color: #bc6e79;
 	color: lavenderblush;
-	margin: 4vw 0;
+	margin-top: 2vw;
 	padding: 2vw;
 }
 
@@ -387,6 +385,145 @@ div.flav-of-the-day-text p {
 	padding: 1vw;
 }
 
+/*-------------------------------------Location and Hours Styles-----------------------------------*/
+
+.grid-container-2{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 5vw;
+}
+
+.grid-container-2 .item-4{
+	grid-column: 1 / 2;
+	grid-row: 1 / 3; 
+	background-color: #bc6e79;
+	color: lavenderblush;
+	margin: 4vw 0;
+	padding: 1vw;
+	margin: 5vw 0vw 1vw 1vw;
+	width: 37vw;
+	height: 61vh;
+}
+
+.grid-container-2 .item-4 h3{
+	font-size: 3.75vw;
+	padding: 1vw;
+}
+
+.grid-container-2 .item-4 p{
+	line-height: 1.3;
+	font-size: 2vw;
+	padding: 1vw;
+}
+
+.grid-container-2 .item-5{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+.grid-container-2 .item-5 iframe{
+	margin: 5vw 0vw 0vw -1vw;
+	width: 55vw;
+	height: 33vw;
+}
+
+/*------------------------------------Events Shortcut Card Styles----------------------------------*/
+
+.grid-container-3{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 5vw;
+}
+
+.grid-container-3 .item-6{
+	grid-column: 1 / 2;
+	grid-row: 1 / 3; 
+}
+
+.grid-container-3 .item-6 img{
+
+	margin: 1vw 0vw 2vw 1vw;
+	width: 47vw;
+}
+.grid-container-3 .item-7{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	text-align: center;
+	background-color: #bc6e79;
+	color: lavenderblush;
+	margin: 4vw 0;
+	padding: 1vw;
+	margin: 1vw 0vw 0vw 1vw;
+	width: 37vw;
+	height: 25vh;
+}
+.grid-container-3 .item-7 h3{
+	font-size: 3.75vw;
+	padding: 1vw;
+}
+.grid-container-3 .item-8{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	text-align: center;
+	background-color: #bc6e79;
+	color: lavenderblush;
+	margin: 1vw 0;
+	padding: 1vw;
+	margin: 0vw 0vw 1vw 1vw;
+	width: 37vw;
+	height: 25vh;
+}
+.grid-container-3 .item-8 h3{
+	font-size: 3.75vw;
+	padding: 1vw;
+}
+.events-short-button-div {
+	text-align: center;
+	padding: 5vh;
+	margin: -2vw;
+}
+
+.events-short-button {
+	font-family: 'Bree Serif', serif;
+	padding: 1vw;
+	font-size: 1.75vw;
+	text-align: right;
+	color: #8E555F;
+	border-radius: 5%;
+	border: none;
+	text-align: center;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 1vw;
+	/*margin-right: 10vw; */
+}
+
+.events-short-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.events-short-button span:after {
+	content: '\003E';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -1.1vw;
+	transition: 0.5s;
+}
+
+.events-short-button:hover span {
+	padding-right: 3vw;
+}
+
+.events-short-button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
 /*================================================================================================= 
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
 ===================================================================================================*/
