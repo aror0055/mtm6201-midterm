@@ -148,6 +148,7 @@ html {
 }
 
 
+/*---------------------------------------------Logo Styles-----------------------------------------*/
 .logo-background {
 	background-image: url("/images/two-tone-background.jpg");
 	background-size: inherit;
@@ -161,6 +162,8 @@ html {
 	width: 20vw;
 }
 
+
+/*--------------------------------------------Navbar Styles-----------------------------------------*/
 .navbar {
 	display: inline-block;
 	text-align: center;
@@ -199,6 +202,7 @@ ul li {
 	transition-duration: 2s;
 }
 
+/*----------------------------------------------Body Styles----------------------------------------*/
 body {
 	background-image: url("/images/brick-background.jpg");
 	background-repeat: no-repeat;
@@ -206,9 +210,25 @@ body {
 }
 
 
-/* 
+/*---------------------------------------------Footer Styles----------------------------------------*/
+footer{
+	background-image: url("/images/two-tone-background.jpg");
+	padding: 6vw;
+	background-size: inherit;
+	background-size: 100%;
+	text-align: right;
+}
+
+footer p{
+	font-size: 2vw;
+	color: lavenderblush;
+	font-weight: lighter;
+}
+
+
+/* ==================================================================================================
 HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
-*/
+====================================================================================================*/
 
 .banner {
 	background-color: #bc6e79;
@@ -233,6 +253,7 @@ HOMEPAGE STYLES: This block of css code contains the styles exclusively to the h
 }
 
 
+/*----------------------------------------Flavour of the day styles--------------------------------*/
 
 div.flavour-of-the-day {
 	width: 100%;
@@ -263,7 +284,6 @@ div.flav-of-the-day-text p {
 	text-align: right;
 	padding: 5vh;
 }
-
 
 .flav-of-the-day-button-div{
 	margin: -2vw;
@@ -309,6 +329,7 @@ div.flav-of-the-day-text p {
 }
 
 
+/*----------------------------------------Menu Section cards styles--------------------------------*/
 
 .grid-container{
 	display: grid;
@@ -344,12 +365,34 @@ div.flav-of-the-day-text p {
 	margin: 2.2vw 0vw 0vw -1vw;
 	width: 47vw;
 }
-/* 
+
+
+/*-------------------------------------------About Us Styles----------------------------------------*/
+
+.about-us{
+	background-color: #bc6e79;
+	color: lavenderblush;
+	margin: 4vw 0;
+	padding: 2vw;
+}
+
+.about-us h3{
+	font-size: 3.75vw;
+	padding: 1vw;
+}
+
+.about-us p{
+	line-height: 1.3;
+	font-size: 2vw;
+	padding: 1vw;
+}
+
+/*================================================================================================= 
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
-*/
+===================================================================================================*/
 
 
 
-/* 
+/*=================================================================================================== 
 EVENTS PAGE STYLES: This block of css code contains the styles exclusively to the events.html webpage.
-*/
+=====================================================================================================*/
