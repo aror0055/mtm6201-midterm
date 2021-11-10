@@ -626,6 +626,10 @@ MENU PAGE STYLES: This block of css code contains the styles exclusively to the 
 	padding-left: 5vw;
 }
 
+.ice-cream{
+	width: 100vw;
+}
+
 .vegan-options p,
 .keto p{
 	text-align: center;
@@ -643,3 +647,31 @@ MENU PAGE STYLES: This block of css code contains the styles exclusively to the 
 /*=================================================================================================== 
 EVENTS PAGE STYLES: This block of css code contains the styles exclusively to the events.html webpage.
 =====================================================================================================*/
+
+.events{
+	color: #bc6e79;
+}
+
+.event-1,
+.event-2,
+.event-3,
+.event-4{
+	text-align: center;
+	background-color: lavenderblush;
+	padding: 2vw;
+	margin: 2vw 0;;
+}
+
+.events h3{
+	font-size: 2.5vw;
+	margin-bottom: 1vw;
+}
+
+.events p{
+	font-size: 1.5vw;
+	margin: 2vw;
+}
+
+.event-img{
+  width: 100vw;
+}
