@@ -150,6 +150,7 @@ html {
 
 /*---------------------------------------------Logo Styles-----------------------------------------*/
 .logo-background {
+	/* image reference: https://unsplash.com/photos/dgJT71cXlC4 */
 	background-image: url("../images/two-tone-background.jpg");
 	background-size: inherit;
 	background-size: 100%;
@@ -249,6 +250,7 @@ ul li {
 
 /* Adding a fixed background image to the website */
 body {
+	/* image reference: https://unsplash.com/photos/4Zaq5xY5M_c */
 	background-image: url("../images/brick-background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
