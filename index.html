@@ -1,3 +1,18 @@
+<!-- 
+    =================================================================================================
+Student Name: Parth Arora
+Student Number: 040949704
+Assignment: Midterm Project - Prototype
+Course: MTM_6201_020 Web Development II 
+Due Date: 08:00 AM Nov 10, 2021
+    =================================================================================================
+ -->
+
+<!-- 
+     ==================
+     ||| index.html |||
+     ==================
+  -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Linking the stylesheet to the html -->
     <link rel="stylesheet" href="css/main.css">
 
     <title>Home - The Frozen Spoon</title>
@@ -14,12 +30,16 @@
 <body>
     <header>
 
+        <!-- Adding background to the header -->
         <div class="logo-background">
+            <!-- Adding the logo to the page -->
             <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
         </div>
         <br>
+        <!-- Creating the navbar -->
         <nav class="navbar">
             <ul>
+                <!-- Adding navbar items -->
                 <li><a href="index.html" class="nav-item">Home</a></li>
                 <li>|</li>
                 <li><a href="menu.html" class="nav-item">Menu</a></li>
@@ -31,6 +51,7 @@
     </header>
 
 
+    <!-- Creating the deal banner -->
     <section class="banner">
         <h2>Sweet-tooth Saturday</h2>
         <h3>Get an extra 10% off on a family pack</h3>
@@ -38,6 +59,7 @@
     </section>
 
 
+    <!-- Creating the flavour of the day banner -->
     <div class="flavour-of-the-day">
         <div class="flavour-of-the-day-image">
             <img src="images/flav-of-the-day-banner.jpg" alt="flavour of the day banner"
@@ -55,6 +77,7 @@
                 Get an extra 10% off on the flavour of the day.
             </p>
 
+            <!-- Adding a button to the flavour of the day banner redirecting to the menu.html page -->
             <div class="flav-of-the-day-button-div">
                 <form>
                     <button formaction="menu.html" class="flav-of-the-day-button"><span>Check it out</span></button>
@@ -64,22 +87,26 @@
     </div>
 
 
+    <!-- Adding the grid div for the menu cards -->
     <div class="grid-container">
 
         <div class="item-1">
             <img src="/images/ice-cream-solves.jpg" alt="Ice cream solves everything">
         </div>
 
+        <!-- Adding a card that redirects to the menu.html page -->
         <div class="item-2">
             <a href="menu.html"><img src="/images/special-family-pack.jpg" alt="Special family pack"></a>
         </div>
 
+        <!-- Adding a card that redirects to the menu.html page -->
         <div class="item-3">
             <a href="menu.html"><img src="/images/gf-and-v.jpg" alt="Gluten-free and Vegan Options"></a>
         </div>
 
     </div>
 
+    <!-- Creating the about us article -->
     <article class="about-us">
         <h3>
             About Us
@@ -95,6 +122,7 @@
         </p>
     </article>
 
+    <!-- Adding the grid div for hours and location shortcut cards -->
     <div class="grid-container-2">
         <div class="item-4">
             <h3>
@@ -114,20 +142,23 @@
             </p>
         </div>
 
+        <!-- Embedding a map ta a made-up location in the city of Ottawa -->
         <div class="item-5">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.3891668926462!2d-75.69474348444403!3d45.42165587910042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05aa86e1ae3d%3A0x8a0a7a6027c2c89d!2s123%20Elgin%20St%2C%20Ottawa%2C%20ON%20K1P%205J2!5e0!3m2!1sen!2sca!4v1636248196097!5m2!1sen!2sca"
-                width="1200" height="900" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                width="1200" height="900" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 
-
+    <!-- Adding the grid div for the events shortcut cards -->
     <div class="grid-container-3">
 
+        <!-- Adding a card that redirects to the index.html page as there is no events page -->
         <div class="item-6">
             <a href="index.html"><img src="/images/twin-cream.jpg" alt="Special family pack"></a>
         </div>
 
+        <!-- Adding a card that redirects to the index.html page as there is no events page -->
         <div class="item-7">
             <h3>
                 Catering
@@ -139,6 +170,7 @@
             </div>
         </div>
 
+        <!-- Adding a card that redirects to the index.html page as there is no events page -->
         <div class="item-8">
             <h3>
                 Custom Flavours
@@ -152,12 +184,12 @@
 
     </div>
 
-
+    <!-- Adding a footer to the html webpage -->
     <footer>
         <p>
             &copy;The Frozen Spoon, All Rights Reserved.
         </p>
-    </footer>   
+    </footer>
 
 </body>
 

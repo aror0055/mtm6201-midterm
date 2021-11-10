@@ -1,3 +1,8 @@
+<!-- 
+     =======================
+     ||| contact-us.html |||
+     =======================
+  -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,21 +10,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events - The Frozen Spoon</title>
+
+    <!-- Linking the stylesheet to the html -->
     <link rel="stylesheet" href="css/main.css">
+
+    <title>Events - The Frozen Spoon</title>
 </head>
 
 <body>
     <header>
+
+        <!-- Adding background to the header -->
         <div class="logo-background">
+            <!-- Adding the logo to the page -->
             <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
         </div>
         <br>
-        <!-- 
-            Adding Logo 
-         -->
+        <!-- Creating the navbar -->
         <nav class="navbar">
             <ul>
+                <!-- Adding navbar items -->
                 <li><a href="index.html" class="nav-item">Home</a></li>
                 <li>|</li>
                 <li><a href="menu.html" class="nav-item">Menu</a></li>
@@ -30,12 +40,14 @@
         <br>
     </header>
 
+    <!-- Adding a header to add the contact main heading -->
     <section class="banner">
         <h2 class="banner-heading">
             Contact Us
         </h2>
     </section>
 
+    <!-- Adding the contact form that is fillable -->
     <div class="form">
         <div class="container">
             <form action="POST">
@@ -51,7 +63,7 @@
 
                 <label for="email">Email</label> <br>
                 <input type="email" id="email" name="email" placeholder="Please enter your email">
-                
+
 
                 <br><br>
 
@@ -69,6 +81,7 @@
         </div>
     </div>
 
+    <!-- Adding the contact buttons that redirect to the designated function for pc, i.e. the email button works with the mailto: function -->
     <div class="contact-info">
         <h2>
             Ways to reach out to us
@@ -76,37 +89,38 @@
         <div class="contact-buttons">
             <div class="contact-info-button">
                 <a href="mailto:contact@frozenspoon.com"> <span class="button-text">Email us at:
-                    contact@frozenspoon.com</span></a>
+                        contact@frozenspoon.com</span></a>
             </div>
             <br>
             <div class="contact-info-button">
                 <a href="contact-us.html"> <span class="button-text"> Give us a call us at: (613)420-6969 </span> </a>
             </div>
         </div>
-</div>
+    </div>
 
-<div class="feedback">
-    <h2>
-        Please provide us your feedback
-    </h2>
-    <form action="POST">
-        <textarea id="feedback" name="feedback" placeholder="Please enter you comment"
-                    style="height:25vw"></textarea>
+    <!-- Adding a feedback form with just one text area to recieve the feedback -->
+    <div class="feedback">
+        <h2>
+            Please provide us your feedback
+        </h2>
+        <form action="POST">
+            <textarea id="feedback" name="feedback" placeholder="Please enter you comment"
+                style="height:25vw"></textarea>
 
-                <br>
+            <br>
 
-                <div class="submit-button-div">
-                    <button type="button" class="submit-button"><span>Submit</span></button>
-                </div>
-    </form>
-</div>
+            <div class="submit-button-div">
+                <button type="button" class="submit-button"><span>Submit</span></button>
+            </div>
+        </form>
+    </div>
 
-        <footer>
-            <p>
-                &copy;The Frozen Spoon, All Rights Reserved.
-            </p>
-        </footer>
-
+    <!-- Adding a footer to the html webpage -->
+    <footer>
+        <p>
+            &copy;The Frozen Spoon, All Rights Reserved.
+        </p>
+    </footer>
 </body>
 
 </html>
