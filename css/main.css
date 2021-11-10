@@ -184,21 +184,22 @@ ul li {
 	color: #bc6e79;
 }
 
-
+/* Setting logo sizes and navbar for different screen sizes to meet the design requirements */
 @media screen and (min-width: 800px) {
 	.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20vw;
-}
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20vw;
+	}
+
 	.navbar ul li a {
 		font-size: 2vw;
 		text-decoration: none;
 		color: #bc6e79;
 	}
 
-  }
+}
 
 @media screen and (max-width: 800px) {
 	.logo {
@@ -207,40 +208,46 @@ ul li {
 		margin-right: auto;
 		width: 30vw;
 	}
+
 	.navbar ul li a {
 		font-size: 4vw;
 		text-decoration: none;
 		color: #bc6e79;
 	}
-  }
+}
 
-  @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
 	.logo {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 40vw;
 	}
+
 	.navbar ul li a {
 		font-size: 6vw;
 		text-decoration: none;
 		color: #bc6e79;
 	}
-  }
+}
 
+/* Adding color to link and visited links to have consistency */
 .navbar ul li a:link,
 .navbar ul li a:visited {
 	color: #bc6e79;
 }
 
+/* Adding a hover animation on the navbar links to enhance user experience design */
 .navbar ul li a:hover,
 .navbar ul li a:active {
 	color: #fd2f7e;
-	transition-property: ease-in;
-	transition-duration: 2s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
 }
 
 /*----------------------------------------------Body Styles----------------------------------------*/
+
+/* Adding a fixed background image to the website */
 body {
 	background-image: url("/images/brick-background.jpg");
 	background-repeat: no-repeat;
@@ -248,6 +255,8 @@ body {
 }
 
 /*---------------------------------------------Footer Styles----------------------------------------*/
+
+/* Adding the background image for the footer of every page with fixed size and it's styles */
 footer {
 	background-image: url("/images/two-tone-background.jpg");
 	padding: 6vw;
@@ -267,6 +276,7 @@ footer p {
 HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
 ====================================================================================================*/
 
+/* Adding styles to the saturday deal*/
 .banner {
 	background-color: #bc6e79;
 	padding: 0%;
@@ -292,6 +302,7 @@ HOMEPAGE STYLES: This block of css code contains the styles exclusively to the h
 
 /*----------------------------------------Flavour of the day styles--------------------------------*/
 
+/* Adding styles to the flavour of the banner */
 div.flavour-of-the-day {
 	width: 100%;
 	background-color: #FABBD0;
@@ -317,14 +328,11 @@ div.flav-of-the-day-text p {
 	color: #8E555F;
 }
 
+/* Adding styles to the deal of the day button */
 .flav-of-the-day-button-div {
 	text-align: right;
 	padding: 5vh;
 	margin: -2vw;
-}
-
-.flav-of-the-day-button:hover {
-	box-shadow: 5px 5px 5px 5px rgb(255, 0, 212, 0.1);
 }
 
 .flav-of-the-day-button {
@@ -336,11 +344,12 @@ div.flav-of-the-day-text p {
 	border-radius: 5%;
 	border: none;
 	text-align: center;
-	transition: all 0.5s;
+	transition: all 1s;
 	cursor: pointer;
 	margin: 1vw;
 	margin-right: 10vw;
 }
+
 
 .flav-of-the-day-button span {
 	cursor: pointer;
@@ -350,16 +359,19 @@ div.flav-of-the-day-text p {
 }
 
 .flav-of-the-day-button span:after {
-	content: '\003E';
 	position: absolute;
 	opacity: 0;
 	top: 0;
-	right: -1.5vw;
 	transition: 0.5s;
 }
 
+/* Adding hover animations to the flavour of the day banner button */
+.flav-of-the-day-button:hover {
+	box-shadow: 5px 5px 5px 5px rgb(255, 0, 212, 0.1);
+}
+
 .flav-of-the-day-button:hover span {
-	padding-right: 3vw;
+	padding: 0 1.5vw;
 }
 
 .flav-of-the-day-button:hover span:after {
@@ -370,6 +382,8 @@ div.flav-of-the-day-text p {
 
 /*----------------------------------------Menu Section cards styles--------------------------------*/
 
+
+/* Creating a grid for the menu cards */
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -377,6 +391,7 @@ div.flav-of-the-day-text p {
 	grid-gap: 5vw;
 }
 
+/* Adding item 1 to the grid */
 .grid-container .item-1 {
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
@@ -388,6 +403,7 @@ div.flav-of-the-day-text p {
 	width: 47vw;
 }
 
+/* Adding item 2 to the grid */
 .grid-container .item-2 {
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
@@ -397,9 +413,10 @@ div.flav-of-the-day-text p {
 
 	margin: 5vw 0vw 0vw -1vw;
 	width: 47vw;
-	
+
 }
 
+/* Adding hover styles to the menu card to show interactivity */
 .grid-container .item-2 img:hover {
 	transform: scale(1.02);
 	transition-duration: 0.2s;
@@ -407,6 +424,7 @@ div.flav-of-the-day-text p {
 	box-shadow: 5px 5px 5px grey;
 }
 
+/* Adding item 3 to the grid */
 .grid-container .item-3 {
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
@@ -416,6 +434,8 @@ div.flav-of-the-day-text p {
 	margin: 2.2vw 0vw 0vw -1vw;
 	width: 47vw;
 }
+
+/* Adding hover styles to the menu card to show interactivity */
 .grid-container .item-3 img:hover {
 	transform: scale(1.02);
 	transition-duration: 0.2s;
@@ -426,6 +446,7 @@ div.flav-of-the-day-text p {
 
 /*------------------------------------------About Us Styles----------------------------------------*/
 
+/* Adding styles to the about us section */
 .about-us {
 	background-color: #bc6e79;
 	color: lavenderblush;
@@ -446,6 +467,8 @@ div.flav-of-the-day-text p {
 
 /*-------------------------------------Location and Hours Styles-----------------------------------*/
 
+/* Creating a grid for the location and store hours section */
+
 .grid-container-2 {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -453,6 +476,7 @@ div.flav-of-the-day-text p {
 	grid-gap: 5vw;
 }
 
+/* Adding item 4 to the grid */
 .grid-container-2 .item-4 {
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
@@ -476,6 +500,7 @@ div.flav-of-the-day-text p {
 	padding: 1vw;
 }
 
+/* Adding item 5 to the grid */
 .grid-container-2 .item-5 {
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
@@ -489,6 +514,7 @@ div.flav-of-the-day-text p {
 
 /*------------------------------------Events Shortcut Card Styles----------------------------------*/
 
+/* Creating a grid for the events section */
 .grid-container-3 {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -496,6 +522,7 @@ div.flav-of-the-day-text p {
 	grid-gap: 5vw;
 }
 
+/* Adding item 6 to the grid */
 .grid-container-3 .item-6 {
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
@@ -513,6 +540,8 @@ div.flav-of-the-day-text p {
 	transition-timing-function: ease-in-out;
 	box-shadow: 5px 5px 5px grey;
 }
+
+/* Adding item 7 to the grid */
 .grid-container-3 .item-7 {
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
@@ -531,6 +560,7 @@ div.flav-of-the-day-text p {
 	padding: 1vw;
 }
 
+/* Adding item 8 to the grid */
 .grid-container-3 .item-8 {
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
@@ -549,6 +579,7 @@ div.flav-of-the-day-text p {
 	padding: 1vw;
 }
 
+/* Adding styles to the events shortcut buttons */
 .events-short-button-div {
 	text-align: center;
 	padding: 5vh;
@@ -564,14 +595,14 @@ div.flav-of-the-day-text p {
 	border-radius: 5%;
 	border: none;
 	text-align: center;
-	transition: all 0.5s;
+	transition: all 1s;
 	cursor: pointer;
 	margin: 1vw;
-	/*margin-right: 10vw; */
 }
 
-.events-short-button:hover{
-box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
+/* Adding hover animations to the events shortcut buttons */
+.events-short-button:hover {
+	box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
 }
 
 .events-short-button span {
@@ -582,16 +613,14 @@ box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
 }
 
 .events-short-button span:after {
-	content: '\003E';
 	position: absolute;
 	opacity: 0;
 	top: 0;
-	right: -1.2vw;
 	transition: 0.5s;
 }
 
 .events-short-button:hover span {
-	padding-right: 3vw;
+	padding: 0 1.5vw;
 }
 
 .events-short-button:hover span:after {
@@ -603,41 +632,47 @@ box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
 ===================================================================================================*/
 
+/* Adding common styles to different sections of the menu */
 .menu-flavours,
 .fam-custom-packs,
 .vegan-options,
 .keto,
 .note {
 	color: #8E555F;
-	background-color: rgba(255, 230, 235, 0.5);
+	background-color: rgba(255, 230, 235, 1);
 	margin: 2vw;
 	padding-right: 3vw;
 	font-size: 3vw;
 	line-height: 1.3;
 }
 
-.prices{
+/* Aligning the prices heading i.e. the number of scoops  */
+.prices {
 	text-align: right;
 	padding: 3vw 4vw 0 0;
 }
 
+/* Spacing the items of the menu in accordance to it's position in the menu section */
 .menu-flavours p,
-.fam-custom-packs p{
+.fam-custom-packs p {
 	padding-left: 5vw;
 }
 
-.ice-cream{
+/* Setting the sizes of the images in the menu */
+.ice-cream {
 	width: 100vw;
 }
 
+/* adding the styles to the paragraphs in vegan and keto section */
 .vegan-options p,
-.keto p{
+.keto p {
 	text-align: center;
 	padding: 4vw;
 	line-height: 1.3;
 }
 
-.note{
+/* Adding the styles to the note section as it is different from the rest of the page */
+.note {
 	text-align: center;
 	font-size: 2vw;
 	padding: 4vw;
@@ -645,33 +680,160 @@ MENU PAGE STYLES: This block of css code contains the styles exclusively to the 
 }
 
 /*=================================================================================================== 
-EVENTS PAGE STYLES: This block of css code contains the styles exclusively to the events.html webpage.
+CONTACT US PAGE STYLES: This block of css code contains the styles exclusively to the contact-us.html webpage.
 =====================================================================================================*/
 
-.events{
-	color: #bc6e79;
+/* Adding the styles to the contact us form container i.e. the basic styles of the form container */
+.container {
+	color: lavenderblush;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #bc6e79;
+	padding: 2vw;
+	width: 100vw;
+	margin-bottom: 2vw;
+	font-size: 2vw;
 }
 
-.event-1,
-.event-2,
-.event-3,
-.event-4{
+/* Adding styles to the input areas of the different sections of the form */
+input,
+textarea {
+	color: #8E555F;
+	width: 50vw;
+	padding: 1vw;
+	border: 1px solid lavenderblush;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 1vw;
+	margin-bottom: 1.5vw;
+	resize: vertical;
+}
+
+/* Adding the basic styles to the submit button of the contact us form */
+.submit-button {
+	font-family: 'Bree Serif', serif;
+	padding: 1vw;
+	font-size: 1.75vw;
+	text-align: right;
+	color: #8E555F;
+	border-radius: 5%;
+	border: none;
 	text-align: center;
+	transition: all 1s;
+	cursor: pointer;
+	margin: 1vw;
+}
+
+.submit-button:hover {
+	box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
+}
+
+.submit-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 1s;
+}
+
+.submit-button span:after {
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	transition: 1s;
+}
+
+/* Adding hover animations to the submit button for the contact us form */
+.submit-button:hover span {
+	padding: 0 1.5vw;
+}
+
+.submit-button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/* Adding styles to the contact buttons i.e. email and phone number */
+.contact-info {
+	background-color: #bc6e79;
+	margin-bottom: 2vw;
+	text-align: center;
+	padding: 2vw;
+}
+
+.contact-info h2 {
+	font-size: 3vw;
+	color: lavenderblush;
+}
+
+/* Adding the basic styles to the contact buttons and aligning them in the same line */
+.contact-buttons {
+	text-decoration: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	color: #8E555F;
+	padding: 2vw 2vw;
+}
+
+/* Adding background to the buttons and adding a transition */
+.contact-buttons div {
+	font-size: 2vw;
 	background-color: lavenderblush;
 	padding: 2vw;
-	margin: 2vw 0;;
 }
 
-.events h3{
-	font-size: 2.5vw;
-	margin-bottom: 1vw;
+/* Adding hover transitions to the buttons */
+.contact-buttons div:hover {
+	padding: .5vw 3vw;
+	background-color: lavenderblush;
+	color: #8E555F;
 }
 
-.events p{
-	font-size: 1.5vw;
+.contact-info-button {
+	font-family: 'Bree Serif', serif;
+	padding: 1vw;
+	font-size: 1.75vw;
+	text-align: right;
+	border: none;
+	text-align: center;
+	transition: all 1s;
+	cursor: pointer;
+	margin: 1vw;
+}
+
+/* Adding the text color to the text of the links in the button */
+.contact-info-button a {
+	color: #8E555F;
+}
+
+.contact-info-button:hover {
+	box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
+	transition: all 0.5s ease-out;
+}
+
+.contact-info-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 1s;
 	margin: 2vw;
 }
 
-.event-img{
-  width: 100vw;
+/* Adding the styles to the feedback section */
+.feedback {
+	color: lavenderblush;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #bc6e79;
+	padding: 2vw;
+	width: 100vw;
+	margin-bottom: 2vw;
+	font-size: 2vw;
+}
+
+/* Adding styles to the heading of the feedback section */
+.feedback h2 {
+	margin: 2vw;
+	font-size: 3vw;
 }

@@ -36,11 +36,76 @@
         </h2>
     </section>
 
-    <footer>
-        <p>
-            &copy;The Frozen Spoon, All Rights Reserved.
-        </p>
-    </footer>
+    <div class="form">
+        <div class="container">
+            <form action="POST">
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="firstname" placeholder="Please enter your name">
+
+                <br>
+
+                <label for="lname">Last Name</label> <br>
+                <input type="text" id="lname" name="lastname" placeholder="Please enter your last name">
+
+                <br>
+
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" name="email" placeholder="Please enter your email">
+                
+
+                <br><br>
+
+                <label>Comment</label>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Please enter you comment"
+                    style="height:25vw"></textarea>
+
+                <br>
+
+                <div class="submit-button-div">
+                    <button type="button" class="submit-button"><span>Submit</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <h2>
+            Ways to reach out to us
+        </h2>
+        <div class="contact-buttons">
+            <div class="contact-info-button">
+                <a href="mailto:contact@frozenspoon.com"> <span class="button-text">Email us at:
+                    contact@frozenspoon.com</span></a>
+            </div>
+            <br>
+            <div class="contact-info-button">
+                <a href="contact-us.html"> <span class="button-text"> Give us a call us at: (613)420-6969 </span> </a>
+            </div>
+        </div>
+</div>
+
+<div class="feedback">
+    <h2>
+        Please provide us your feedback
+    </h2>
+    <form action="POST">
+        <textarea id="feedback" name="feedback" placeholder="Please enter you comment"
+                    style="height:25vw"></textarea>
+
+                <br>
+
+                <div class="submit-button-div">
+                    <button type="button" class="submit-button"><span>Submit</span></button>
+                </div>
+    </form>
+</div>
+
+        <footer>
+            <p>
+                &copy;The Frozen Spoon, All Rights Reserved.
+            </p>
+        </footer>
 
 </body>
 
