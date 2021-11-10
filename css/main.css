@@ -150,7 +150,7 @@ html {
 
 /*---------------------------------------------Logo Styles-----------------------------------------*/
 .logo-background {
-	background-image: url("/images/two-tone-background.jpg");
+	background-image: url("images/two-tone-background.jpg");
 	background-size: inherit;
 	background-size: 100%;
 }
@@ -249,7 +249,7 @@ ul li {
 
 /* Adding a fixed background image to the website */
 body {
-	background-image: url("/images/brick-background.jpg");
+	background-image: url("images/brick-background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -258,7 +258,7 @@ body {
 
 /* Adding the background image for the footer of every page with fixed size and it's styles */
 footer {
-	background-image: url("/images/two-tone-background.jpg");
+	background-image: url("images/two-tone-background.jpg");
 	padding: 6vw;
 	background-size: inherit;
 	background-size: 100%;
