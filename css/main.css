@@ -150,7 +150,7 @@ html {
 
 /*---------------------------------------------Logo Styles-----------------------------------------*/
 .logo-background {
-	background-image: url("/images/two-tone-background.jpg");
+	background-image: url("images/two-tone-background.jpg");
 	background-size: inherit;
 	background-size: 100%;
 }
